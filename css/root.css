@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway&display=swap");
+
+:root {
+  --head-font: "Noto Sans", sans-serif; /* For bold fonts */
+  --page-font: "Raleway", sans-serif; /* For light fonts */
+  --main-clr: #32aee6; /* Theme color of website */
+}
+
+.flexing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}

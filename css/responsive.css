@@ -1,0 +1,142 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    display: none;
+  }
+
+  #about {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container_size {
+    width: 100%;
+    max-width: 90%;
+    margin: 0;
+  }
+
+  nav {
+    height: 15vh;
+    padding: 0 0;
+    flex-direction: column;
+    margin: 2rem 10px;
+    transition: all 0.6s ease-in-out;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .navigation > ul {
+    flex-direction: column;
+  }
+
+  .navigation > ul > li {
+    margin: 20px 10px;
+  }
+
+  .hiring {
+    padding: 20px 0;
+  }
+
+  #home {
+    height: auto;
+    margin: 2rem 10px;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home_img {
+    width: 100%;
+  }
+
+  .home_img > img {
+    width: 80%;
+  }
+
+  .home_info {
+    width: 100%;
+  }
+
+  #about {
+    height: auto;
+    margin: 2rem 10px;
+    padding: 10px;
+    flex-direction: column-reverse;
+  }
+
+  .home_img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .home_img > img {
+    width: 95%;
+  }
+
+  #project {
+    height: auto;
+    margin: 2rem 10px;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .project_img {
+    margin: 0 0;
+    width: 100%;
+  }
+
+  .project_img > img {
+    width: 95%;
+  }
+
+  #skill {
+    height: auto;
+    margin: 2rem 10px;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .tech_skill {
+    width: 100%;
+    padding: 1rem;
+    margin: 0 20px;
+  }
+
+  .soft_skill {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #footer {
+    height: auto;
+    margin: 2rem 10px;
+    padding: 10px;
+  }
+
+  #footer > ul {
+    padding: 0 0;
+  }
+
+  #footer > ul > li {
+    font-size: 1rem;
+  }
+
+  /* Menu_Bar section */
+
+  .menu {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .nav_height {
+    height: 25rem;
+  }
+}
