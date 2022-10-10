@@ -1,12 +1,21 @@
-let Nav = document.querySelector('nav');
-let MenuBar = document.querySelector('#menu_bar');
-let Navigation = document.querySelector('.navigation');
-let Hiring = document.querySelector('.hiring');
+const OpenButton = document.getElementById("open-bar");
+const CloseButton = document.getElementById("close-bar");
+const MobileNavbar = document.getElementById("Moblie-navbar");
+const MobileMenu = document.querySelector(".mobile-menu-container");
 
-MenuBar.addEventListener('click', () =>{
-    setTimeout(() => {
-        Nav.classList.toggle('nav_height')
-        Navigation.classList.toggle('hidden');
-        Hiring.classList.toggle('hidden');  
-    }, 100);
-})
+OpenButton.addEventListener("click", () => {
+  MobileNavbar.classList.add("show-navigation");
+  OpenButton.style.display = "none";
+  CloseButton.style.display = "inline-block";
+  setTimeout(() => {
+    MobileNavbar.classList.remove("show-navigation");
+    OpenButton.style.display = "inline-block";
+    CloseButton.style.display = "none";
+  }, 5000);
+});
+
+CloseButton.addEventListener("click", () => {
+  MobileNavbar.classList.remove("show-navigation");
+  OpenButton.style.display = "inline-block";
+  CloseButton.style.display = "none";
+});

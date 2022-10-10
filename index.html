@@ -10,30 +10,34 @@
     <meta name="description" content="A Front-end developer, good at HTML,Css and JavaScript">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Haidaytullah Ansari | Front-End Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/root.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
-    <header class="container_size">
-        <nav>
+    <header>
+        <nav class="navbar">
             <div class="logo">
                 Haidaytullah Ansari
             </div>
-            <div class="navigation hidden">
+            <div class="navigation" id="Moblie-navbar">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#project">Projects</a></li>
-                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#skill">Skills</a></li>
                 </ul>
             </div>
-            <div class="hiring hidden">
+            <div class="hiring">
                 <a href="#footer">Hire me</a>
             </div>
-            <div class="menu">
-                <span id="menu_bar" class="show_menu">Menu</span>
+            <div class="mobile-menu-container">
+                <i class="fa-solid fa-bars" id="open-bar"></i>
+                <i class="fa-solid fa-xmark" id="close-bar"></i>
             </div>
         </nav>
     </header>
@@ -44,9 +48,9 @@
                 <img src="./img/React.svg" alt="HomeLogo">
             </div>
             <div class="home_info">
-                <p class="info_first">Hey, I am</p>
+                <p class="info_first">Hi, i am</p>
                 <p class="info_second">Haidaytullah Ansari</p>
-                <p class="info_first">Front-End Developer and Website's layout creator</p>
+                <p class="info_first">Front-End Developer and JavaScript enthusiast</p>
             </div>
         </section>
 
@@ -54,14 +58,14 @@
         <section id="about" class="flexing">
             <div class="about_info home_info">
                 <ul>
-                    <li>Hello, I am self - Taught Developer</li>
-                    <li>Learning frond-end technologies for quite a while</li>
-                    <li>I am good at developing user-friendly responsive websites</li>
-                    <li>I Also write readable and maintainable code</li>
-                    <h4>*Qualification</h4>
-                    <li>Graduate in B.sc (Physics)</li>
-                    <li>from Patliputra University</li>
-                    <li>2019 - 2022</li>
+                    <li>Hello, I am React Developer</li>
+                    <li>Learning frond-end technologies for a long Time</li>
+                    <li>I am good at developing React single page applications</li>
+                    <li>I also write readable and maintainable code</li>
+                    <h4>★Qualification</h4>
+                    <li>Completed Bachelor's of Physics in 2022 from Patliputra University Patna : 66%</li>
+                    <li>Intermediate from BSEB Patna : 80%</li>
+                    <li>Matriculation from BSEB Patna : 80%</li>
                 </ul>
 
             </div>
@@ -78,18 +82,18 @@
             <div class="project_info">
                 <ul>
                     <li>React single page application of a product selling organisation</li>
-                    <p>(Component based structured website.Here the data shared between components with the help of
-                        props.And usases of React Hooks)</p>
+                    <p>Component based structured website.Here the data shared between components with the help of
+                        props.And usases of React Hooks</p>
                     <p>link:- <a href="https://developerhamid.github.io/greenveg/" target="_blank">view Deployment</a>
                     </p>
 
-                    <li>A Restaurrant's website for their services</li>
-                    <p>(A functional static website to show their services. Css cards included)</p>
-                    <p>link:- <a href="https://developerhamid.github.io/TokyoinRestaurrant/" target="_blank">view
+                    <li>Blog Template developed integrated with Bootstrap 5</li>
+                    <p>Creafting with beautiful Carousel. Fully responsive for all devices</p>
+                    <p>link:- <a href="https://developerhamid.github.io/Blog-website/" target="_blank">view
                             Deployment</a> </p>
 
                     <li>Weather App using weather Api</li>
-                    <p>(A real-time weather collecting app. Also included some different types of data along with Temp.)
+                    <p>A real-time weather collecting app. Also included some different types of data along with Temp.
                     </p>
                     <p>link:- <a href="https://developerhamid.github.io/weatherApp/" target="_blank">view Deployment</a>
                     </p>
@@ -108,17 +112,17 @@
                 <h2 class="text_center">Tech skills</h2>
                 <ul class="skill_line">
                     <li>Programming Languages: C, JavaScript</li>
-                    <li>Web Technologies: React, HTML5, CSS, Bootstrap</li>
+                    <li>Web Technologies: React, Redux, HTML5, CSS, Bootstrap</li>
                     <li>Version Control: Git, Github</li>
                 </ul>
             </div>
             <div class="soft_skill">
                 <h2 class="text_center">Soft skills</h2>
                 <ul class="skill_line">
+                    <li>Hard Working</li>
                     <li>Responsible</li>
                     <li>Problem Solver</li>
                     <li>Quick Learner</li>
-                    <li>Hard Working</li>
                 </ul>
             </div>
         </section>

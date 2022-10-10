@@ -248,7 +248,16 @@ nav {
   padding: 0 12px;
 }
 
-/* Menu_bar section */
-.menu {
+/* =========================================
+          Mobile menu responsive styling
+       ======================================== */
+
+.mobile-menu-container {
+  font-size: 2rem;
   display: none;
+  z-index: 999;
+}
+
+.mobile-menu-container:hover{
+  cursor: pointer;
 }
